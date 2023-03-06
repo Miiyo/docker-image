@@ -3,8 +3,8 @@
 set -e
 
 # Git Configuration
-export GIT_USERNAME="Dakkshesh"
-export GIT_EMAIL="dakkshesh5@gmail.com"
+export GIT_USERNAME="ekkusa"
+export GIT_EMAIL="dayesofficial@gmail.com"
 
 git config --global user.name "${GIT_USERNAME}"
 git config --global user.email "${GIT_EMAIL}"

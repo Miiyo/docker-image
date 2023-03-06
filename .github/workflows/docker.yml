@@ -3,7 +3,7 @@ name: Build and Push
 on:
   push:
     branches:
-      - main
+      - arch-miyo
   schedule:
       # Every Saturday at 1:30AM UTC
       - cron: "30 01 * * 6"
@@ -12,19 +12,19 @@ on:
 env:
   # Change these values if you have forked it for your own works
   # Use Lowercase vaue of your Username
-  GITHUB_USERNAME: Dakkshesh
-  GITHUB_EMAIL: dakkshesh5@gmail.com
-  GITHUB_ORG: neutron-projects
+  GITHUB_USERNAME: ekkusa
+  GITHUB_EMAIL: dayesofficial@gmail.com
+  GITHUB_ORG: Miiyo
 
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
   # Image name and tag. MUST be lowercase
   IMAGE_NAME: docker-image
-  IMAGE_TAG: arch-neutron
+  IMAGE_TAG: arch-miyo
 
 jobs:
   push:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout

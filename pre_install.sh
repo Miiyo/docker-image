@@ -3,7 +3,7 @@
 set -e
 
 # TimeZone Configuration
-export TZ="Asia/Kolkata"
+export TZ="Asia/Singapore"
 ln -sf /usr/share/zoneinfo/${TZ} /etc/localtime
 
 # Uncomment community [multilib] repository
