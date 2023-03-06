@@ -18,7 +18,7 @@ jobs:
     - name: Push to dockerhub
       uses: elgohr/Publish-Docker-Github-Action@v4
       with:
-        name: miyouki/archlinux
+        name: miyouki/arch
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         buildoptions: "--compress --force-rm"
