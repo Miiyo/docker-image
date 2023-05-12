@@ -7,6 +7,7 @@ pacman -Sy --noconfirm \
     aarch64-linux-gnu-binutils \
     base-devel \
     repo \
+    openssh \
     bc \
     bison \
     ccache \
