@@ -6,6 +6,7 @@ set -e
 pacman -Sy --noconfirm \
     aarch64-linux-gnu-binutils \
     base-devel \
+    repo \
     bc \
     bison \
     ccache \
